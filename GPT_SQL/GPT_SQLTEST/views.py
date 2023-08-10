@@ -35,7 +35,7 @@ def gpt_sql(request):
         url = "https://openai.api2d.net/v1/chat/completions"
         headers = {
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer fk191879-6SnGzMicBhN0HOOoSM3DXvTpUHFKSXcL' 
+            'Authorization':  
         }
         data = {"model": "gpt-3.5-turbo","messages": 
                 [{"role":"system","content":prompt},
