@@ -26,3 +26,4 @@ python manage.py runserver
 
 架构设计
 
+![Alt text](CSV_solution.png)
